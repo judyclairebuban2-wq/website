@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.center-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #6a6a6a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+@media (max-width: 0px) {
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+main {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.prof img{
+    text-align: center;
+   border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+section h1 span {
+    color: #ffd700;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+   color: blue;
+   font-size: xx-large;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background: #6a5acd;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+#contact a {
+    color: #6a5acd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #ffd700;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer .social {
+    margin: 15px 0;
+}
+
+footer .soccial a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.2s, color 0.2s;
+}
+
+footer .social a:hover {
+    transform: scale(1.2);
+}
+
+.fa-facebook { color: #1877f2;}
+.fa-github { color: #f5f5f5;}
+.fa-phone { color: #34a853;}
